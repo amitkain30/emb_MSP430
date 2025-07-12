@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Asm_Flow_Switch_Case ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Asm_Flow_Switch_Case.out' is up to date.
+
+**** Build Finished ****
