@@ -2306,3 +2306,77 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://d
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
 !SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2025-07-10 19:28:16.074
 !MESSAGE No repository found at https://download.segger.com/J-Link/JLink_TI_CCS_plugin.
+!SESSION 2025-07-12 14:37:49.758 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Framework arguments:  -product com.ti.ccstudio.branding.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ti.ccstudio.branding.product
+
+!ENTRY com.ti.common.core 1 0 2025-07-12 14:37:52.041
+!MESSAGE path=ccs_base/DebugServer
+
+!ENTRY com.ti.common.core 1 0 2025-07-12 14:37:52.042
+!MESSAGE debugServerDir=C:/ti/ccs1000/ccs/ccs_base/DebugServer
+
+!ENTRY com.ti.ccstudio.ui 1 0 2025-07-12 14:38:10.897
+!MESSAGE CCS IDE session started!
+	CCS build: 10.0.0.00010
+	CCS location: C:/ti/ccs1000/ccs
+	Workspace location: E:/github_projects/emb_MSP430/workspace_v10
+
+!ENTRY com.ti.ccstudio.project.ui.webcontent 1 0 2025-07-12 14:38:11.133
+!MESSAGE CCS HTTP adapter started! [ccs.port:54884] - Open 'http://localhost:54884/ide' in web browser to see listing of available APIs...
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-12 14:38:36.037
+!MESSAGE Indexed 'Asm_IRQs_Port4_S1' (0 sources, 0 headers) in 0.003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-07-12 14:38:41.323
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://download.segger.com/J-Link/JLink_TI_CCS_plugin.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:396)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:700)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:775)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:676)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2025-07-12 14:38:41.323
+!MESSAGE No repository found at https://download.segger.com/J-Link/JLink_TI_CCS_plugin.
+
+!ENTRY com.ti.ccstudio.debug 1 0 2025-07-12 14:48:24.386
+!MESSAGE DS_ERROR: MSP430: GEL: Encountered a problem loading file: E:\github_projects\emb_MSP430\workspace_v10\Asm_IRQs_Port4_S1\Debug\Asm_IRQs_Port4_S1.out Could not open file
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2025-07-12 14:48:58.609
+!MESSAGE DS_ERROR: MSP430: GEL: Encountered a problem loading file: E:\github_projects\emb_MSP430\workspace_v10\Asm_IRQs_Port4_S1\Debug\Asm_IRQs_Port4_S1.out Could not open file
+
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-12 16:24:13.179
+!MESSAGE Indexed 'Asm_Timers_ACLK_Overflow' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-12 16:50:31.125
+!MESSAGE Indexed 'Asm_Timers_ACLK_Overflow_12bit' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2025-07-12 16:59:18.150
+!MESSAGE DS_ERROR: MSP430: GEL: Encountered a problem loading file: E:\github_projects\emb_MSP430\workspace_v10\Asm_Timers_ACLK_Overflow_12bit\Debug\Asm_Timers_ACLK_Overflow_12bit.out Could not open file
+
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-12 17:03:38.313
+!MESSAGE Indexed 'Asm_Timers_SMCLK_Overflow' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-12 17:13:52.023
+!MESSAGE Indexed 'Asm_Timers_SMCLK_Overflow_Div4' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-12 17:45:20.653
+!MESSAGE Indexed 'Asm_Timer_Compare_CCR1_n_CCR0_PWM' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

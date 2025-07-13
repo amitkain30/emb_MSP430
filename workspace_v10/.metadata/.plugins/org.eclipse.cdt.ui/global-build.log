@@ -1890,3 +1890,437 @@ Finished building target: "Asm_Subroutines.out"
  
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQs_Port4_S1 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_IRQs_Port4_S1" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+1 Assembly Error, 2 Assembly Warnings
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.asm", WARNING! at line 40: [W0005] NOP required before set of GIE bit.
+			eint								; enable global maskables..
+ 
+"../main.asm", WARNING! at line 40: [W0005] NOP required after set or clear of GIE bit.
+			eint								; enable global maskables..
+ 
+"../main.asm", ERROR!   at EOF: [E0300] The following symbols are undefined:
+  PRIES
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQs_Port4_S1 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_IRQs_Port4_S1" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+1 Assembly Error, 2 Assembly Warnings
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.asm", WARNING! at line 40: [W0005] NOP required before set of GIE bit.
+				eint								; enable global maskables..
+ 
+"../main.asm", WARNING! at line 40: [W0005] NOP required after set or clear of GIE bit.
+				eint								; enable global maskables..
+ 
+"../main.asm", ERROR!   at EOF: [E0300] The following symbols are undefined:
+  PRIES
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQs_Port4_S1 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_IRQs_Port4_S1" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 40: [W0005] NOP required before set of GIE bit.
+				eint								; enable global maskables..
+ 
+"../main.asm", WARNING! at line 40: [W0005] NOP required after set or clear of GIE bit.
+				eint								; enable global maskables..
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_IRQs_Port4_S1.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_IRQs_Port4_S1.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1000/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1000/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_IRQs_Port4_S1_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_IRQs_Port4_S1.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_IRQs_Port4_S1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQs_Port4_S1 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Asm_IRQs_Port4_S1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQs_Port4_S1 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Asm_IRQs_Port4_S1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQs_Port4_S1 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Asm_IRQs_Port4_S1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQs_Port4_S1 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_IRQs_Port4_S1" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 40: [W0005] NOP required before set of GIE bit.
+				eint								; enable global maskables..
+ 
+"../main.asm", WARNING! at line 40: [W0005] NOP required after set or clear of GIE bit.
+				eint								; enable global maskables..
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_IRQs_Port4_S1.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_IRQs_Port4_S1.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1000/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1000/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_IRQs_Port4_S1_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_IRQs_Port4_S1.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_IRQs_Port4_S1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Dig_IO_Outputs_n_LEDs ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Asm_Dig_IO_Outputs_n_LEDs.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Dig_IO_Inputs_n_Polling_S1 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Asm_Dig_IO_Inputs_n_Polling_S1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQs_Port4_S1 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Asm_IRQs_Port4_S1.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQs_Port4_S1 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_IRQs_Port4_S1" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 40: [W0005] NOP required before set of GIE bit.
+				bis.w	#GIE, SR						; enable global maskables..
+ 
+"../main.asm", REMARK   at line 40: [R0001] After symbol substitution the line became:
+				bis.w	#(0x0008), SR						; enable global maskables..
+ 
+"../main.asm", WARNING! at line 40: [W0005] NOP required after set or clear of GIE bit.
+				bis.w	#GIE, SR						; enable global maskables..
+ 
+"../main.asm", REMARK   at line 40: [R0001] After symbol substitution the line became:
+				bis.w	#(0x0008), SR						; enable global maskables..
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_IRQs_Port4_S1.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_IRQs_Port4_S1.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1000/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1000/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_IRQs_Port4_S1_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_IRQs_Port4_S1.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_IRQs_Port4_S1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_IRQs_Port4_S1 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_IRQs_Port4_S1" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 40: [W0005] NOP required before set of GIE bit.
+				bis.w	#GIE, SR						; enable global maskables..
+ 
+"../main.asm", REMARK   at line 40: [R0001] After symbol substitution the line became:
+				bis.w	#(0x0008), SR						; enable global maskables..
+ 
+"../main.asm", WARNING! at line 40: [W0005] NOP required after set or clear of GIE bit.
+				bis.w	#GIE, SR						; enable global maskables..
+ 
+"../main.asm", REMARK   at line 40: [R0001] After symbol substitution the line became:
+				bis.w	#(0x0008), SR						; enable global maskables..
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_IRQs_Port4_S1.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_IRQs_Port4_S1.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1000/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1000/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_IRQs_Port4_S1_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_IRQs_Port4_S1.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_IRQs_Port4_S1.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timers_ACLK_Overflow ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_Timers_ACLK_Overflow" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 41: [W0005] NOP required before set of GIE bit.
+				eint							; enable global for maskables
+ 
+"../main.asm", WARNING! at line 41: [W0005] NOP required after set or clear of GIE bit.
+				eint							; enable global for maskables
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Timers_ACLK_Overflow.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Timers_ACLK_Overflow.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1000/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1000/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Timers_ACLK_Overflow_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Timers_ACLK_Overflow.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_Timers_ACLK_Overflow.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timers_ACLK_Overflow ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Asm_Timers_ACLK_Overflow.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timers_ACLK_Overflow_12bit ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_Timers_ACLK_Overflow_12bit" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+1 Assembly Error, 2 Assembly Warnings
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.asm", WARNING! at line 40: [W0005] NOP required before set of GIE bit.
+				bis.w	#GIE, SR				; global enable for maskables
+ 
+"../main.asm", REMARK   at line 40: [R0001] After symbol substitution the line became:
+				bis.w	#(0x0008), SR				; global enable for maskables
+ 
+"../main.asm", WARNING! at line 40: [W0005] NOP required after set or clear of GIE bit.
+				bis.w	#GIE, SR				; global enable for maskables
+ 
+"../main.asm", REMARK   at line 40: [R0001] After symbol substitution the line became:
+				bis.w	#(0x0008), SR				; global enable for maskables
+ 
+"../main.asm", ERROR!   at EOF: [E0300] The following symbols are undefined:
+  TBSSEL_ACLK
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timers_ACLK_Overflow_12bit ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_Timers_ACLK_Overflow_12bit" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 40: [W0005] NOP required before set of GIE bit.
+				bis.w	#GIE, SR				; global enable for maskables
+ 
+"../main.asm", REMARK   at line 40: [R0001] After symbol substitution the line became:
+				bis.w	#(0x0008), SR				; global enable for maskables
+ 
+"../main.asm", WARNING! at line 40: [W0005] NOP required after set or clear of GIE bit.
+				bis.w	#GIE, SR				; global enable for maskables
+ 
+"../main.asm", REMARK   at line 40: [R0001] After symbol substitution the line became:
+				bis.w	#(0x0008), SR				; global enable for maskables
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Timers_ACLK_Overflow_12bit.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Timers_ACLK_Overflow_12bit.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1000/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1000/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Timers_ACLK_Overflow_12bit_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Timers_ACLK_Overflow_12bit.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_Timers_ACLK_Overflow_12bit.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timers_SMCLK_Overflow ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_Timers_SMCLK_Overflow" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 39: [W0005] NOP required before set of GIE bit.
+				eint 							; global enable for maskable IRQs
+ 
+"../main.asm", WARNING! at line 39: [W0005] NOP required after set or clear of GIE bit.
+				eint 							; global enable for maskable IRQs
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Timers_SMCLK_Overflow.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Timers_SMCLK_Overflow.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1000/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1000/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Timers_SMCLK_Overflow_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Timers_SMCLK_Overflow.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_Timers_SMCLK_Overflow.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timers_SMCLK_Overflow_Div4 ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_Timers_SMCLK_Overflow_Div4" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 41: [W0005] NOP required before set of GIE bit.
+				eint							; global enable
+ 
+"../main.asm", WARNING! at line 41: [W0005] NOP required after set or clear of GIE bit.
+				eint							; global enable
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Timers_SMCLK_Overflow_Div4.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Timers_SMCLK_Overflow_Div4.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1000/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1000/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Timers_SMCLK_Overflow_Div4_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Timers_SMCLK_Overflow_Div4.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_Timers_SMCLK_Overflow_Div4.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timer_Compare_CCR1_n_CCR0_PWM ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_Timer_Compare_CCR1_n_CCR0_PWM" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+1 Assembly Error, 2 Assembly Warnings
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.asm", WARNING! at line 48: [W0005] NOP required before set of GIE bit.
+				eint							; global enable
+ 
+"../main.asm", WARNING! at line 48: [W0005] NOP required after set or clear of GIE bit.
+				eint							; global enable
+ 
+"../main.asm", ERROR!   at EOF: [E0300] The following symbols are undefined:
+  IST_TB0_CCR0
+ 
+Errors in Source - Assembler Aborted
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timer_Compare_CCR1_n_CCR0_PWM ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_Timer_Compare_CCR1_n_CCR0_PWM" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 48: [W0005] NOP required before set of GIE bit.
+				eint							; global enable
+ 
+"../main.asm", WARNING! at line 48: [W0005] NOP required after set or clear of GIE bit.
+				eint							; global enable
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Timer_Compare_CCR1_n_CCR0_PWM.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Timer_Compare_CCR1_n_CCR0_PWM.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1000/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1000/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Timer_Compare_CCR1_n_CCR0_PWM_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Timer_Compare_CCR1_n_CCR0_PWM.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_Timer_Compare_CCR1_n_CCR0_PWM.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Asm_Timer_Compare_CCR1_n_CCR0_PWM ****
+
+"C:\\ti\\ccs1000\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="C:/ti/ccs1000/ccs/ccs_base/msp430/include" --include_path="E:/github_projects/emb_MSP430/workspace_v10/Asm_Timer_Compare_CCR1_n_CCR0_PWM" --include_path="C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+No Assembly Errors, 2 Assembly Warnings
+"../main.asm", WARNING! at line 48: [W0005] NOP required before set of GIE bit.
+				eint							; global enable
+ 
+"../main.asm", WARNING! at line 48: [W0005] NOP required after set or clear of GIE bit.
+				eint							; global enable
+ 
+Finished building: "../main.asm"
+ 
+Building target: "Asm_Timer_Compare_CCR1_n_CCR0_PWM.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --advice:hw_config=all --define=__MSP430FR2355__ --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"Asm_Timer_Compare_CCR1_n_CCR0_PWM.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1000/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1000/ccs/ccs_base/msp430/lib/FR2xx" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/lib" -i"C:/ti/ccs1000/ccs/tools/compiler/ti-cgt-msp430_20.2.0.LTS/include" --priority --reread_libs --define=_FRWP_ENABLE --define=_INFO_FRWP_ENABLE --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Asm_Timer_Compare_CCR1_n_CCR0_PWM_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "Asm_Timer_Compare_CCR1_n_CCR0_PWM.out" "./main.obj" "../lnk_msp430fr2355.cmd"  -lfrwp_init.a -llibc.a 
+<Linking>
+Finished building target: "Asm_Timer_Compare_CCR1_n_CCR0_PWM.out"
+ 
+
+**** Build Finished ****
