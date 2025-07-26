@@ -4,6 +4,7 @@
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.MSP430FR2355.ccxml.TI MSP430 USB1/MSP430" value="${build_artifact:C_SPI_Tx1_Hex_on_A0}"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.MSP430FR2355.ccxml.TI MSP430 USB1/MSP430" value="C_SPI_Tx1_Hex_on_A0"/>
 <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:C_SPI_Tx1_Hex_on_A0}"/>
+<stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.MSP430FR2355.ccxml.TI MSP430 USB1/MSP430" value="E:\github_projects\emb_MSP430\workspace_v10\C_SPI_Tx1_Hex_on_A0\Debug\C_SPI_Tx1_Hex_on_A0.out"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/C_SPI_Tx1_Hex_on_A0"/>
 </listAttribute>
